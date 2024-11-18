@@ -1,0 +1,84 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXMLMauiApp.MainPage"
+             BackgroundColor="#FFE4E1">
+    <Grid Padding="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="ExitButton"
+                Text="Exit"
+                Clicked="ExitButtonClicked"
+                BackgroundColor="Red"
+                TextColor="White"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                Grid.Row="0"
+                Grid.Column="1" />
+
+        <StackLayout Orientation="Horizontal" Spacing="10" Grid.Row="1" Grid.Column="0">
+            <Button x:Name="ClearButton" Text="Clear" Clicked="ClearButtonClicked" />
+            <Button x:Name="TransformToHTMLButton" Text="HTML" Clicked="TransformToHTMLButtonClicked" />
+        </StackLayout>
+
+        <VerticalStackLayout Grid.Row="2" Grid.Column="0" Spacing="20">
+
+            <Label Text="Filters"
+                   FontAttributes="Italic"
+                   TextColor="Gray"
+                   HorizontalOptions="Start" />
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <CheckBox x:Name="BrandCheckBox" VerticalOptions="Center" />
+                <Label Text="Brand" VerticalOptions="Center" />
+                <Picker x:Name="BrandPicker" WidthRequest="200" HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+
+            <!-- Release Year -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <CheckBox x:Name="ReleaseYearCheckBox" VerticalOptions="Center" />
+                <Label Text="Release Year" VerticalOptions="Center" />
+                <Picker x:Name="ReleaseYearPicker" WidthRequest="200" HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+
+            <!-- Color Scheme -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <CheckBox x:Name="ColorSchemeCheckBox" VerticalOptions="Center" />
+                <Label Text="Color Scheme" VerticalOptions="Center" />
+                <Picker x:Name="ColorSchemePicker" WidthRequest="200" HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+
+            <!-- Type of Piece -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <CheckBox x:Name="TypeOfPieceCheckBox" VerticalOptions="Center" />
+                <Label Text="Type of Piece" VerticalOptions="Center" />
+                <Picker x:Name="TypeOfPiecePicker" WidthRequest="200" HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+
+            <!-- Search Button -->
+            <Button x:Name="SearchButton" Text="Search" Clicked="SearchButtonClicked" />
+
+            <Editor x:Name="editor" HeightRequest="200" VerticalOptions="FillAndExpand" IsReadOnly="True" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="2" Grid.Column="1" Spacing="20" HorizontalOptions="Start">
+
+            <Label Text="Analyzer"
+                   FontAttributes="Italic"
+                   TextColor="Gray"
+                   HorizontalOptions="Start" />
+
+            <RadioButton x:Name="SaxRadioButton" Content="SAX" GroupName="Strategy" />
+            <RadioButton x:Name="DomRadioButton" Content="DOM" GroupName="Strategy" />
+            <RadioButton x:Name="LinqRadioButton" Content="LINQ" GroupName="Strategy" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

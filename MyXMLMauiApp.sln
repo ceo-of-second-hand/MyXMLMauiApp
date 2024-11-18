@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyXMLMauiApp", "MyXMLMauiApp\MyXMLMauiApp.csproj", "{FCA2F34B-2820-488C-8F8A-FD8031B2E014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApparelCatalog", "ApparelCatalog\ApparelCatalog.csproj", "{E2203009-D5F0-4CCE-8386-AA2450CAA14C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApparelCatalog.SearchStrategy", "ApparelCatalog.SearchStrategy\ApparelCatalog.SearchStrategy.csproj", "{F3954B1D-5281-451A-B61C-E3757A361177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA2F34B-2820-488C-8F8A-FD8031B2E014}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E2203009-D5F0-4CCE-8386-AA2450CAA14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2203009-D5F0-4CCE-8386-AA2450CAA14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2203009-D5F0-4CCE-8386-AA2450CAA14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2203009-D5F0-4CCE-8386-AA2450CAA14C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3954B1D-5281-451A-B61C-E3757A361177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3954B1D-5281-451A-B61C-E3757A361177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3954B1D-5281-451A-B61C-E3757A361177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3954B1D-5281-451A-B61C-E3757A361177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B72B93D-C5AC-457E-8514-9CC060275D15}
+	EndGlobalSection
+EndGlobal

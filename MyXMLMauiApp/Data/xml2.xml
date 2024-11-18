@@ -1,0 +1,27 @@
+﻿<ClothingPieces>
+	<ClothingPiece Brand="Schiaparelli" ReleaseYear="2023" ColorScheme="Gold" TypeOfPiece="Dress"/>
+	<ClothingPiece Brand="Chanel" ReleaseYear="2022" ColorScheme="Black and White" TypeOfPiece="Blazer"/>
+	<ClothingPiece Brand="Tom Ford" ReleaseYear="2021" ColorScheme="Blue" TypeOfPiece="Shoes"/>
+	<ClothingPiece Brand="Balenciaga" ReleaseYear="2020" ColorScheme="Gray" TypeOfPiece="Coat"/>
+	<ClothingPiece Brand="Versace" ReleaseYear="2019" ColorScheme="Gold" TypeOfPiece="Gown"/>
+	<ClothingPiece Brand="Dior" ReleaseYear="2023" ColorScheme="Beige" TypeOfPiece="Bag"/>
+	<ClothingPiece Brand="Gucci" ReleaseYear="2021" ColorScheme="Green and Red" TypeOfPiece="Sweater"/>
+	<ClothingPiece Brand="Prada" ColorScheme="Purple" TypeOfPiece="Shoes"/>
+	<ClothingPiece Brand="Bottega Veneta" ColorScheme="Brown" TypeOfPiece="Bag"/>
+	<ClothingPiece Brand="Hermès" ColorScheme="Orange" TypeOfPiece="Scarf"/>
+	<ClothingPiece ReleaseYear="2022" ColorScheme="Silver" TypeOfPiece="Necklace"/>
+	<ClothingPiece ReleaseYear="2021" ColorScheme="Black" TypeOfPiece="Trousers"/>
+	<ClothingPiece ReleaseYear="2020" ColorScheme="White" TypeOfPiece="Shirt"/>
+	<ClothingPiece Brand="Valentino" ReleaseYear="2023" TypeOfPiece="Gown"/>
+	<ClothingPiece Brand="YSL" ReleaseYear="2022" TypeOfPiece="Blazer"/>
+	<ClothingPiece Brand="Alexander McQueen" ReleaseYear="2021" TypeOfPiece="Boots"/>
+	<ClothingPiece Brand="Chanel" ReleaseYear="2022" ColorScheme="Black" TypeOfPiece="Bag"/>
+	<ClothingPiece Brand="Chanel" ReleaseYear="2023" ColorScheme="Black" TypeOfPiece="Shoes"/>
+	<ClothingPiece Brand="Gucci" ReleaseYear="2021" ColorScheme="Green and Red" TypeOfPiece="Bag"/>
+	<ClothingPiece Brand="Gucci" ReleaseYear="2023" ColorScheme="Beige" TypeOfPiece="Shoes"/>
+	<ClothingPiece Brand="Prada" ReleaseYear="2022" ColorScheme="Purple" TypeOfPiece="Dress"/>
+	<ClothingPiece Brand="Schiaparelli" TypeOfPiece="Hat"/>
+	<ClothingPiece ReleaseYear="2023" TypeOfPiece="Earrings"/>
+	<ClothingPiece ColorScheme="White" TypeOfPiece="Gloves"/>
+	<ClothingPiece Brand="Hermès"/>
+</ClothingPieces>
